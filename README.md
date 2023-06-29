@@ -1,140 +1,119 @@
-[![Socket Badge](https://socket.dev/api/badge/npm/package/fca-horizon-remastered)](https://socket.dev/npm/package/fca-horizon-remastered)
+#[Listen Your Papa Amir HeRe]
 
 ## Important !
 
-This package require NodeJS 14.17.0 to work properly.
+This package is Made By Jordan Ka Papa AmiR JusT FeeL LoRo and EnjoY PaPa ka FCA 😌🤞🍬
 
 ## Notification !
+If you are facing any error then contact me on Facebook Or Whatsapp.👇👇
+https://www.facebook.com/F4R3BII.AMIR
+whatsapp= +923477034310
 
-+ We will have Example Video on Channel "Nguyễn Thái Hảo Official"
+This is Original Project
 
-Original Project(Deprecated): https://github.com/Schmavery/facebook-chat-api
-
-Chúc các bạn một ngày tốt lành!, cảm ơn vì đã sài Sản phẩm của HZI, thân ái
-
-KANZUWAKAZAKI(15/04/2023)
+Made By Mr Amir(29/06/2023)
 
 ## Support For : 
 
 + Support English, VietNamese !,
 + All bot if using listenMqtt first.
 
-# Api Cho ChatBot Messenger
+# Api ChatBot Messenger
 
-Facebook Đã Có Và Cho Người Dùng Tạo Api Cho Chatbots 😪 Tại Đey => [Đây Nè](https://developers.facebook.com/docs/messenger-platform).
-
-### Api Này Có Thể Khiến Cho Bạn Payy Acc Như Cách Acc Bạn Chưa Từng Có, Hãy Chú Ý Nhé =))
-
-Lưu Ý ! Nếu Bạn Muốn Sài Api Này Hãy Xem Document Tại [Đây Nè](https://github.com/Schmavery/facebook-chat-api).
-
-## Tải Về 
-
-Nếu Bạn Muốn Sử Dụng, Hãy Tải Nó Bằng Cách:
 ```bash
-npm i fca-horizon-remastered
+npm i fca-amir-farebii
 ```
 or
 ```bash
-npm install fca-horizon-remastered
+npm install fca-amir-farebii
 ```
 
-Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không Hiện Đâu Mà Tìm 😪
+It Will Load Into node_modules (Your Lib) - Note Replit Won't Show Where to Find 😪 from English
 
-### Tải Bản Mới Nhất Hoặc Update
-
-Nếu Bạn Muốn Sử Dụng Phiên Bản Mới Nhất Hay Cập Nhật Thì Hãy Vô Terminal Hoặc Command Promt Nhập :
+How To Update:
 ```bash
-npm install fca-horizon-remastered@latest
-```
-Hoặc
+npm install fca-amir-farebii@latest
+```Or
 ```bash
-npm i fca-horizon-remastered@latest
+npm i fca-amir-farebii@latest
 ```
 
-## Nếu Bạn Muốn Test Api 
 
-Lợi Ích Cho Việc Này Thì Bạn Sẽ Không Tốn Thời Gian Pay Acc Và Có Acc 😪
-Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => [Facebook Whitehat Accounts](https://www.facebook.com/whitehat/accounts/).
 
-## Cách Sử Dụng
+## Using
 
 ```javascript
-const login = require("fca-horizon-remastered"); // lấy từ lib ra 
+const login = require("fca-amir-farebii"); // get from lib
 
-// đăng nhập
-login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (err, api) => {
+// log in
+login({email: "Gmail Account", password: "Your Facebook Password"}, (err, api) => {
 
-    if(err) return console.error(err); // trường hợp lỗi
+     if(err) return console.error(err); // error case
 
-    // tạo bot tự động nhái theo bạn:
-    api.listenMqtt((err, message) => {
-        api.sendMessage(message.body, message.threadID);
-    });
+     // create bots that automatically copy you:
+     api.listenMqtt((err, message) => {
+         api.sendMessage(message.body, message.threadID);
+     });
 
 });
 ```
 
-Kết Quả Là Nó Sẽ Nhái Bạn Như Hình Dưới:
+As a result, it will copy you as shown below:
 <img width="517" alt="screen shot 2016-11-04 at 14 36 00" src="https://cloud.githubusercontent.com/assets/4534692/20023545/f8c24130-a29d-11e6-9ef7-47568bdbc1f2.png">
 
-Nếu Bạn Muốn Sử Dụng Nâng Cao Thì Hãy Sử Dụng Các Loại Bot Được Liệt Kê Ở Trên !
+If You Want Advanced Use Then Use The Bots Listed Above!
 
-## Danh Sách
+## List
 
-Bạn Có Thể Đọc Full Api Tại => [here](DOCS.md).
+You Can Read Full Api At => [here](DOCS.md).
 
-## Cài Đặt Cho Mirai: 
+## Install For Mirai:
 
-Bạn Cần Vô File Mirai.js,Sau Đó Tìm Đến Dòng
+You Need To Go To Mirai.js File, Then Find The Line
 ```js
-    var login = require('tùy bot'); 
-    /* Có thể là :
-        var login = require('@maihuybao/fca-Unofficial');
-        var login = require('fca-xuyen-get');
-        var login = require('fca-unofficial-force');
-    ...   
-    */
+     var login = require('depending on bot');
+     /* Maybe :
+         var login = require('fca-horizon');
+\\Etc
+     ...
+     */
 ```
 
-Và Thay Nó Bằng:
+And Replace It With:
 
 ```js
-    var login = require('fca-horizon-remastered')
+     var login = require('fca-amir-farebii')
 ```
 
-Sau Đó Thì Chạy Bình Thường Thôi  !
+Then Run As Normal!
 
-## Tự Nghiên Cứu
-
-Nếu Bạn Muốn Tự Nghiên Cứu Hoặc Tạo Bot Cho Riêng Bạn Thì Bạn Hãy Vô Cái Này Đọc Chức Năng Của Nó Và Cách Sử Dụng => [Link](https://github.com/Schmavery/facebook-chat-api#Unofficial%20Facebook%20Chat%20API)
 
 ------------------------------------
 
-### Lưu Lại Thông Tin Đăng Nhập.
+### Save Login Information.
 
-Để Lưu Lại Thì Bạn Cần 1 Apstate Kiểu (Cookie, etc,..) Để Lưu Lại Hoặc Là Sử Dụng Mã Login Như Trên Để Đăng Nhập !
+To Save You Need 1 Apstate Type (Cookie, etc,..) To Save Or Use Login Code As Above To Login !
 
-Và Chế Độ Này Đã Có Sẵn Trong 1 Số Bot Việt Nam Nên Bạn Cứ Yên Tâm Nhé !
+And This Mode Is Available In Some Bots In Vietnam So You Can Rest assured!
 
-__Hướng Dẫn Với Appstate__
+__Instructions With Appstate__
 
 ```js
 const fs = require("fs");
-const login = require("fca-horizon-remastered");
+const login = require("fca-amir-farebii");
 
-var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tk
+var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // info tk
 
 login(credentials, (err, api) => {
-    if(err) return console.error(err);
-    // đăng nhập
-    fs.writeFileSync('appstate.json', JSON.stringify(api.getAppState(), null,'\t')); //tạo appstate
+     if(err) return console.error(err);
+     // log in
+     fs.writeFileSync('appstate.json', JSON.stringify(api.getAppState(), null,'\t')); //create appstate
 });
 ```
 
-Hoặc Dễ Dàng Hơn ( Chuyên Nghiệp ) Bạn Có Thể Dùng => [c3c-fbstate](https://github.com/c3cbot/c3c-fbstate) Để Lấy Fbstate And Rename Lại Thành Apstate Cũng Được ! (appstate.json)
-
+Or Easier (Professional) You Can Use => [c3c-fbstate](https://github.com/c3cbot/c3c-fbstate) To Get Fbstate And Rename To Apstate Also ! (appstate.json)
 ------------------------------------
 
 ## FAQS
 
-FAQS => [Link](https://github.com/Schmavery/facebook-chat-api#FAQS)
+FAQS => Koi LinK Ni Hai BabY DaFa Ho Jao 😌🤞
