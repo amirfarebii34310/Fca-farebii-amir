@@ -18,7 +18,7 @@ switch (global.Fca.Require.FastConfig.BroadCast) {
             try {
                 try {
                     var logger = global.Fca.Require.logger;
-                        var random = global.Fca.Data.BroadCast[Math.floor(Math.random() * global.Fca.Data.BroadCast.length)] || "Ae Zui Zẻ Nhé !";
+                        var random = global.Fca.Data.BroadCast[Math.floor(Math.random() * global.Fca.Data.BroadCast.length)] || " UffO!";
                     logger.Normal(random);
                 }	
                 catch (e) {
