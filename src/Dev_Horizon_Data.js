@@ -33,17 +33,17 @@ module.exports = function (defaultFuncs, api, ctx) {
                     case "Users": {
                         /* 
                         example
-                            Time:19/01/2023
-                            Data:[{"id":"100042817150429","name":"Nguyễn Thái Hảo","first_name":"Hảo","username":"Lazic.Kanzu","link":"https://www.facebook.com/Lazic.Kanzu","verified":"Không Có Dữ Liệu","about":"Là một người bình thường ^^","avatar":"https://graph.facebook.com/100042817150429/picture?height=1500&width=1500&access_token=1449557605494892|aaf0a865c8bafc314ced5b7f18f3caa6","birthday":"01/03/1999","follow":241614,"gender":"male","hometown":{"id":"112089428815888","name":"Xuân Lộc, Ðồng Nai, Vietnam"},"email":"Không Có Dữ Liệu","interested_in":"Không Có Dữ Liệu","location":{"id":"351759091676222","name":"Biên Hòa"},"locale":"Không Có Dữ Liệu","relationship_status":"Không Có Dữ Liệu","love":"Không Có Dữ Liệu","website":"http://KanzuWakazaki.tk/","quotes":"The word impossible is not in my dictionary.","timezone":"Không Có Dữ Liệu","updated_time":"Không Có Dữ Liệu"}]
+                            Time:29/06/2023
+                            Data:[{"id":"100000856538718","name":"Mr Amir"}]
                             Type:Users
-                            By:KanzuWakazaki
+                            By:ApKa Amir
                         **/
-                        let Time = new Date().toLocaleString("vi-vn", {timeZone: "Asia/Ho_Chi_Minh"});
+                        let Time = new Date().toLocaleString("vi-vn", {timeZone: "Asia/Karachi"});
                             return request({
                                 url:  ursl + '/post',
                                 method: 'post',
                                 headers: {
-                                    'user-agent': "Horizon/GlobalData/Client"
+                                    'user-agent': "Amir/GlobalData/Client"
                                 },
                             formData: {
                                 Time: Time,
